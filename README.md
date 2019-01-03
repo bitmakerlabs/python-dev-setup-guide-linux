@@ -175,11 +175,11 @@ First off, you are going to want to install Chrome. Ubuntu comes with Firefox pr
 
 The text editor of choice at Bitmaker is [Atom](https://atom.io/).  When you click on that link, the Atom website should recognize that you're on Linux and give you the option to download a `.deb` file:
 
-![atom download page]('assets/atom_homepage.png')
+![atom download page](assets/atom_homepage.png)
 
 Choose "Download .deb".  When the download finishes, you might get a warning like this:
 
-![are you sure you want to keep this file]('assets/atom_are_you_sure.png')
+![are you sure you want to keep this file](assets/atom_are_you_sure.png)
 
 This warning happens because a `.deb` file is for installing programs, which you only want to do if the source is one you trust.  We _do_ trust the creators of Atom, though, so choose to keep the file despite the warning.
 
