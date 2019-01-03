@@ -6,7 +6,7 @@ This is Bitmaker's guide to setting up a development environment for the Web Dev
 
 If you have a Windows laptop, this guide will walk you through installing Linux.  
 
-If you already have Linux installed, you can [skip to this part of the guide](#linux-dev-env-tools).
+If you already have Linux installed, you can [skip to this part of the guide](#Linux-Development-Environment-and-Tools).
 
 ## Installing Linux
 
@@ -163,7 +163,7 @@ To make these changes permanent, see [How to remove Amazon and Ubuntu One Music?
 <hr>
 
 
-## [Linux Development Environment and Tools](#linux-dev-env-tools)
+## Linux Development Environment and Tools
 
 This process should take about 1 hour to 1.5 hours to complete, depending on the speed of your machine and your internet connection.
 
