@@ -301,7 +301,7 @@ source ~/.bashrc
 mkdir -p $WORKON_HOME
 ```
 
-Lastly, o get `pyenv`, which manages our Python versions, working nicely with `virtualenv`:
+Lastly, to get `pyenv`, which manages our Python versions, working nicely with `virtualenv`:
 
 ```bash
 echo 'eval "$(pyenv init -)"' >> ~/.bashrc
