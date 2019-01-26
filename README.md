@@ -214,10 +214,9 @@ source ~/.bashrc
 Certain flavours of Ubuntu ship with fewer developer essentials than others.  You will likely need to install the following packages:
 
 ```bash
-sudo apt-get install libssl-dev
-sudo apt-get install libsqlite3-dev
-sudo apt-get install libreadline-dev
-sudo apt-get install build-essential
+sudo apt-get install -y make build-essential libssl-dev zlib1g-dev libbz2-dev \
+libreadline-dev libsqlite3-dev wget curl llvm libncurses5-dev libncursesw5-dev \
+xz-utils tk-dev libffi-dev liblzma-dev python-openssl
 ```
 
 If you aren't using Ubuntu you may want to search for equivalent packages for your version of Linux.
@@ -274,6 +273,14 @@ Choose the latest version. Scroll up - it should just be a version number withou
 ```bash
 pyenv install 3.7.1
 python --version   # <-- should output 3.7.1, or whatever version you installed.
+```
+
+### If you get an error like "ERROR: The Python ssl extension was not compiled. Missing the OpenSSL lib?"
+
+Try the following command instead (again, filling in the specific version you're trying to install):
+
+```bash
+CFLAGS=-I/usr/include/openssl LDFLAGS=-L/usr/lib pyenv install 3.7.1
 ```
 
 To check that you'll be able to install new Python packages using pip, run:
