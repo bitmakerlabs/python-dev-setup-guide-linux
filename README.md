@@ -283,6 +283,12 @@ Try the following command instead (again, filling in the specific version you're
 CFLAGS=-I/usr/include/openssl LDFLAGS=-L/usr/lib pyenv install 3.7.1
 ```
 
+Next we'll set this verison as the default global version of Python:
+
+```bash
+pyenv global 3.7.1
+```
+
 To check that you'll be able to install new Python packages using pip, run:
 
 ```bash
