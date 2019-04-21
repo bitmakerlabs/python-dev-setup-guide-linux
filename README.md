@@ -173,30 +173,25 @@ First off, you are going to want to install Chrome. Ubuntu comes with Firefox pr
 
 ### Text Editor
 
-The text editor of choice at Bitmaker is [Atom](https://atom.io/).  When you click on that link, the Atom website should recognize that you're on Linux and give you the option to download a `.deb` file:
+VS Code is the text editor we recommend for the course. Other alternatives are [Atom](https://atom.io), [Sublime Text 3](http://www.sublimetext.com/3) and [Textmate 2](https://macromates.com/download).
 
-![atom download page](assets/atom_homepage.png)
+Download [VS Code](https://code.visualstudio.com/).  When you follow that link, the VS Code website should recognize that you're on Linux and give you the option to download a `.deb` file:
 
-Choose "Download .deb".  When the download finishes, you might get a warning like this:
-
-![are you sure you want to keep this file](assets/atom_are_you_sure.png)
-
-This warning happens because a `.deb` file is for installing programs, which you only want to do if the source is one you trust.  We _do_ trust the creators of Atom, though, so choose to keep the file despite the warning.
 
 If you open that file, it should automatically open the Ubuntu Software Centre and give you the option to "install".
 
-When the installation process is complete, open the terminal (with CTRL-ALT + t) and type `atom`.  If the installation was successful, the text editor should open.
+When the installation process is complete, open the terminal (with CTRL-ALT + t) and type `code`.  If the installation was successful, the text editor should open.
 
 ## Bash
 
 This guide assumes that you're using bash shell, which is the default pre-installed shell for Ubuntu terminal. We also assume that you use `.bashrc` to setup `$PATH` and other environment variables. If you happen already use a different shell or a different bash config file, be sure to substitute it where appropriate below.  If that doesn't sound like something you know you've set up, just keep following along!
 
-### Configuring Atom as the Default Editor
+### Configuring VS Code as the Default Editor
 
-Now that you've installed Atom, you might also want to set it as your default system editor.
+Now that you've installed VS Code, you might also want to set it as your default system editor.
 
 ```bash
-echo 'export EDITOR="atom -w"' >> ~/.bashrc
+echo 'export EDITOR="code -w"' >> ~/.bashrc
 ```
 
 ### Alias ls
