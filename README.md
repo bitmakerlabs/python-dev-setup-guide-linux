@@ -173,7 +173,7 @@ First off, you are going to want to install Chrome. Ubuntu comes with Firefox pr
 
 ### Text Editor
 
-VS Code is the text editor we recommend for the course. Other alternatives are [Atom](https://atom.io), [Sublime Text 3](http://www.sublimetext.com/3) and [Textmate 2](https://macromates.com/download).
+VS Code is the text editor we recommend for the course. Other alternatives are [Atom](https://atom.io) and [Sublime Text 3](http://www.sublimetext.com/3).
 
 Download [VS Code](https://code.visualstudio.com/).  When you follow that link, the VS Code website should recognize that you're on Linux and give you the option to download a `.deb` file:
 
