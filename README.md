@@ -338,13 +338,13 @@ curl -o- https://raw.githubusercontent.com/creationix/nvm/v + VERSION NUMBER GOE
 Then refresh our new nvm settings:
 
 ```bash
-. ~/.bashrc
+source ~/.bashrc
 ```
 
 Now we need to find an appropriate node version to install:
 
 ```bash
-nvm ls remote | grep -i lts
+nvm ls-remote | grep -i lts
 ```
 
 This will find all of the Long Term Support versions of Node available to us. The very last version in the looooong list that will appear is going to be the version we will install! (Currently this is version 6.10.2), so let's install it!
