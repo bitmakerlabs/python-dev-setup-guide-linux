@@ -251,7 +251,9 @@ We may need to manage multiple versions of Python during the course. Run the fol
 
 ```bash
 curl -L https://github.com/pyenv/pyenv-installer/raw/master/bin/pyenv-installer | bash
-echo export PATH="/home/natalie/.pyenv/bin:$PATH" >> ~/.bashrc
+```
+`echo export PATH="/home/`*YOUR USERNAME HERE*`/.pyenv/bin:$PATH" >> ~/.bashrc`
+```bash
 source ~/.bashrc
 echo eval "$(pyenv init -)" >> ~/.bashrc
 echo eval "$(pyenv virtualenv-init -)" >> ~/.bashrc
@@ -332,7 +334,7 @@ sudo apt-get update
 Then we'll add nvm using its native installation script (make sure you're including the most up to date version of nvm where it says VERSION UMBER GOES HERE in the URL below.  The format should be three numbers separated by dots, such as 0.33.4. [Check for the latest release version here.](https://github.com/creationix/nvm/releases):
 
 ```bash
-curl -o- https://raw.githubusercontent.com/creationix/nvm/v + VERSION NUMBER GOES HERE + /install.sh | bash
+curl -o- https://raw.githubusercontent.com/creationix/nvm/v`*VERSION NUMBER GOES HERE*`/install.sh | bash
 ```
 
 Then refresh our new nvm settings:
